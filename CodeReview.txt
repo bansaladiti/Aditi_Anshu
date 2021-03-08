@@ -1,0 +1,105 @@
+class student{
+
+ 
+
+string name;     \\to store name
+int id;          \\to store id
+double per;      \\to store percentage
+string skills[30]; \\ array of skills to store skills
+
+ 
+
+student(string name)                    \\constructor called for initialising name
+this.name = name ;
+}
+
+ 
+
+student(int id){                           \\constructor called for initialising id
+this.id = id;
+}
+
+ 
+
+student(double per){                       \\ constructor called for initialising percentage
+this.per = per;
+}
+
+ 
+
+student(string skills[]){                    \\ constructor called for skills
+
+ 
+
+this.skills = skills;
+}
+
+ 
+
+student(string name, int id, double per){       \\constructor called for initialising name, id, percentage
+this.name = name;
+this.id = id;
+this.per = per;
+}
+
+ 
+
+student(string name, int id){            \\ constructor called for initialising name and id
+this.name = name;
+this.id = id;
+}
+
+ 
+
+public void setname(String name){         \\to set name
+this.name = name;
+}
+
+ 
+
+public void setid(int id ){                 \\ to set id.
+this.id = id;
+}
+
+ 
+
+public void setpercentage(double per){         \\ to set percentage
+this.per = per;
+}
+
+ 
+
+public void setskills(String[] skills){            \\ to set skills
+this.skills = skills;
+}
+
+ 
+
+public String getname(){                \\to get name
+return name;
+}
+
+ 
+
+public int getid(){                      \\ to get id
+return id;
+}
+
+ 
+
+public double getpercentage(){             \\ to get percentage
+return per;
+}
+
+ 
+
+public String[] getskills(){                \\to get skills
+
+ 
+
+return skills;
+
+ 
+
+}
+}
